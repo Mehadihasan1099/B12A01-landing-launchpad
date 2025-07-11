@@ -1,12 +1,12 @@
 header{
     background-image: url(../Assets/Hero-bg.png);
+    background-size: full;
 
-    height: 600px;
 }
 nav ul{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 158px;
+    margin-bottom: 150px;
 }
 nav ul li{
     list-style: none;
@@ -23,4 +23,55 @@ nav ul a{
 }
 .ui-tmp-item{
     text-align: center;
+    padding-bottom: 230px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    gap: 220px;
+    margin-top: 76px;
+    margin-bottom: 176px;
+    margin-left: 220px;
+    margin-right: 96px;
+    
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 42px;
+}
+.banner-description{
+    font-size: 24;
+    color: #252432;
+}
+.banner img{
+    border-radius: 48px;
+    max-width: 400px;
+}
+.productive-users-section{
+    
+     margin: 0 160px 130px 140px;
+     text-align: center;
+     padding: 50px 80px;
+}
+.productive-users-section h4{
+    font-size: 38;
+    font-weight: 600;
+}
+.productive-users-section-items{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(108, 103, 230, 0.1);
+    padding: 0 145px;
+    border-radius: 40px;
+
+}
+.productive-users-section-items h2{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+}
+.productive-users-section-items p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
 }
