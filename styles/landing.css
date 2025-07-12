@@ -1,11 +1,9 @@
-
-.raleway-portfolio {
+.raleway-assinment{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
-
 body{
     background-color: #eef0f4;
 }
@@ -81,7 +79,7 @@ nav ul a{
      padding: 50px 80px;
 }
 .centered-title{
-    font-size: 50;
+    font-size: 50px;
     font-weight: 600;
 }
 .productive-users-section{
@@ -130,8 +128,6 @@ nav ul a{
     max-height: 50px;
        
 }
-
-
 .get-in-tuch{
     display: flex;
     margin: 0 auto;
@@ -141,21 +137,23 @@ nav ul a{
     align-items: center;
     justify-content: space-between;
 }
-.get-in-tuch-item{
-    width: 500px;
-}
+
 .get-title{
     font-weight: 700;
     font-size: 97px;
 }
 form{
-    width:30%;
+    width:36%;
 }
 form input{
-    padding: 10px 0px;
-    border: 1px rgb(68, 58, 58);
+    padding: 20px 2px;
+    border: 2px rgb(68, 58, 58);
     border-radius: 5px;
     width: 100%;
+}
+form textarea{
+    width: 100%;
+    border-radius: 5px;
 }
 .get-button{
     width: 100%;
