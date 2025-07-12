@@ -11,9 +11,12 @@ body{
 }
 header{
     background-image: url(../Assets/Hero-bg.png);
-    background-size: full;
-    padding: 50px;
+    padding: 50px 120px;
 
+}
+.header-title{
+    font-size: 63px;
+    font-weight: 700;
 }
 nav ul{
     display: flex;
@@ -27,6 +30,10 @@ nav ul li{
 nav ul a{
     text-decoration: none;
 }
+.logo{
+    font-size: larger;
+    font-weight: bolder;
+}
 .button-style{
     
     background-color: #4E47FF;
@@ -34,12 +41,15 @@ nav ul a{
     border-radius: 10px;
     padding: 12px 36px;
 }
+.button:hover{
+    background-color: brown;
+}
 .ui-tmp-item{
     text-align: center;
-    padding-bottom: 230px;
     margin: 0 267px;
-    padding: 300 267px 167px 267px;
+    padding-bottom: 100px;
 }
+/*see in section*/
 
 .banner{
     display: flex;
@@ -56,8 +66,9 @@ nav ul a{
     font-size: 44px;
 }
 .banner-description{
+    padding-right: 200px;
     font-size: 24;
-    color: #252432;
+    color: rgba(37, 36, 50, 0.5);
 }
 .banner img{
     border-radius: 48px;
@@ -73,20 +84,23 @@ nav ul a{
     font-size: 50;
     font-weight: 600;
 }
+.productive-users-section{
+    background-color: rgba(108, 103, 230, 0.1);
+    border-radius: 40px;
+}
 .productive-users-section-items{
     display: flex;
     justify-content: space-between;
-    background-color: rgba(108, 103, 230, 0.1);
     padding: 0 145px;
-    border-radius: 40px;
-
 }
-.productive-users-section-items h2{
+.user-data{
+    margin: 0%;
     font-weight: bold;
     font-size: 80px;
     color: #4E47FF;
 }
 .productive-users-section-items p{
+    margin-top: 0%;
     color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
 }
@@ -111,7 +125,6 @@ nav ul a{
     border-radius: 15px;
 }
 .reviewer-info{
-    border: 2px solid red;
     padding-top: 2px;
     display: flex;
     max-height: 50px;
@@ -137,7 +150,6 @@ nav ul a{
 }
 form{
     width:30%;
-    border: 2px solid red;
 }
 form input{
     padding: 10px 0px;
@@ -149,8 +161,8 @@ form input{
     width: 100%;
 }
 /*footer section*/
-footer{
-    background-color: #FFFFFF
+.second-bg{
+    background-color:white;
 }
 footer section{
     margin: 100px 455px;
@@ -158,14 +170,13 @@ footer section{
 } 
 footer h3{
     color: #4E47FF;
-    line-height: 0px;
     font: bolder;
     font-size: 97px;
 }
 
 footer li{
-    
     list-style: none;
+    padding: 40px 0px;
 }
 li a{
     text-decoration: none;
@@ -176,8 +187,5 @@ li a{
     justify-content: space-between;
 }
 .footer-logo{
-    line-height: 0px;
-}
-.secondary-bg{
-    background-color: white;
+    margin-bottom: 0px;
 }
